@@ -52,6 +52,12 @@
 .imgsekk1 img {
     width: 550px;
 }
+.sek2 {
+    text-align: center;
+}
+.sek2 p {
+    color: gray;
+}
 @media (max-width: 500px) {
     .divrighthider {
             display: none;
