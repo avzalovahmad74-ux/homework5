@@ -55,8 +55,38 @@
 .sek2 {
     text-align: center;
 }
-.sek2 p {
+.sek2 p, .divsek3 p, .textsek33 p {
     color: gray;
+}
+.imgsek3 img{
+    border-radius: 50%;
+    width: 90px;
+}
+.divsek3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: end;
+}
+.divsek33 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: end;
+}
+.divleftsek3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+.textsek33 {
+    text-align: start;
+}
+.sek3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
 }
 @media (max-width: 500px) {
     .divrighthider {
@@ -75,5 +105,12 @@
     }
     .imgsekk1 img{
         width: 280px;
+    }
+    .sek3 {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .imgsek33 img{
+        width: 450px;
     }
 }
