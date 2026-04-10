@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
+}
+.sek1 {
+    background-image: url(./Path\ 194.png);
+    width: 100%;
+    height: 1075px;
+}
+.divrighthider {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    gap: 20px;
+}
+.hider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.menu {
+    width: 30px;
+    display: none;
+}
+.button1 {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 140px;
+}
+.textsekk1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.sekk1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.imgsekk1 img {
+    width: 550px;
+}
+@media (max-width: 500px) {
+    .divrighthider {
+            display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .textsekk1 {
+        text-align: center;
+    }
+    .sekk1 {
+        flex-direction: column;
+        row-gap: 50px;
+        font-size: 15px;
+    }
+    .imgsekk1 img{
+        width: 280px;
+    }
+}
